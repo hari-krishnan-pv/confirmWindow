@@ -94,13 +94,13 @@ export class NgxCoolDialog implements OnInit, AfterViewInit, OnDestroy {
   /**
    * Reference to the prompt text input
    */
-  @ViewChild('promptInput')
+  @ViewChild('promptInput', { static: false })
   promptInput: ElementRef;
 
   /**
    * Reference to the dialog content
    */
-  @ViewChild('dialogContent')
+  @ViewChild('dialogContent', { static: true })
   dialogContent: ElementRef;
 
   /**
