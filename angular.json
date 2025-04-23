@@ -83,7 +83,6 @@
       }
     }
   },
-  "defaultProject": "ngx-cool-dialogs",
   "cli": {
     "analytics": "938addb6-91f7-4e4a-9ac7-60abff18d349"
   }
