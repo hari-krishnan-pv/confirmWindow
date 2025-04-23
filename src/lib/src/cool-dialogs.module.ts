@@ -5,10 +5,9 @@ import { NgxCoolDialogsService } from './cool-dialogs.service';
 import { NgxCoolDialogsGlobalConfig, NGX_QUICK_DIALOG_CONFIG } from './cool-dialogs.config';
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [NgxCoolDialog],
-  exports: [NgxCoolDialog],
-  entryComponents: [NgxCoolDialog] // optional in Angular 9+, remove if Ivy is enabled
+    imports: [CommonModule],
+    declarations: [NgxCoolDialog],
+    exports: [NgxCoolDialog]
 })
 export class NgxCoolDialogsModule {
   static forRoot(globalConfig?: NgxCoolDialogsGlobalConfig): ModuleWithProviders<NgxCoolDialogsModule> {
